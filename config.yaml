@@ -1,0 +1,16 @@
+#---------------------------------------------------
+#General Parameters 
+#---------------------------------------------------
+SAMPLES: "samples.tsv"
+ARRIBA: "/rds/project/rds-O11U8YqSuCk/SM/tools/arriba_v2.2.0/arriba"
+BLACKLIST: "/rds/project/rds-O11U8YqSuCk/SM/tools/arriba_v2.2.0/database/blacklist_hg38_GRCh38_v2.2.0.tsv.gz"
+KNOWN_FUSION: "/rds/project/rds-O11U8YqSuCk/SM/tools/arriba_v2.2.0/database/known_fusions_hg38_GRCh38_v2.2.0.tsv.gz"
+PROTEIN: "/rds/project/rds-O11U8YqSuCk/SM/tools/arriba_v2.2.0/database/protein_domains_hg38_GRCh38_v2.2.0.gff3" 
+PAIRED: True
+THREADS: 4
+
+#------------------------------------------------------------------
+GENOME: "/rds/project/rds-O11U8YqSuCk/SM/annotations/Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome" 
+GTF: "/rds/project/rds-O11U8YqSuCk/SM/annotations/Homo_sapiens/NCBI/GRCh38/Annotation/Genes/genes.gtf"
+INDEX: "/rds/project/rds-O11U8YqSuCk/SM/annotations/StarGRCh38Index"
+#-------------------------------------------------------------------------
